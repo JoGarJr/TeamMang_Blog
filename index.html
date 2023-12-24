@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logoTransparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+    <title>TeamMang Blog</title>
+</head>
+
+<body class="body">
+    <!-- NAV BAR -->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="img/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            </li>
+
+            <li><a href="html.html">Home</a></li>
+            <li><a href="html.html#about">About</a></li>
+        </ul>
+        <ul class="hidden">
+            <li class="mobileView"><a href="html.html">TeamMang Blog</a></li>
+            <li class="hideOnMobile"><a href="html.html">Home</a></li>
+            <li class="hideOnMobile"><a href="html.html#about">About</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><img src="img/menu_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt=""></a></li>
+        </ul>
+    </nav>
+
+    <!-- ENTRIES -->
+    <div class="container">
+        <div class="card"><a href="parola.html">
+                <img src="img/parola.jpg" class="float-end">
+                <div class="content">
+                    <h3>Parola</h3>
+                    <p>TAGSIP, JEFFORD</p>
+                </div>
+                <div class="icon"><a href="parola.html"><img src="img/enter.png" class="enter"></a></div>
+            </a>
+            <div class="bottom">
+                <div class="react">
+                    <button onclick="react(this)" value="like">
+                        <i class="fa-regular fa-thumbs-up" id="react"></i>
+                        <i class="fa-solid fa-thumbs-up" id="reacted" style="display: none; color: blue"></i>
+                    </button>
+                    <button onclick="react(this)" value="heart">
+                        <i class="fa-regular fa-heart" id="reactH"></i>
+                        <i class="fa-solid fa-heart" id="reactedH" style="display: none; color: red;"></i>
+                    </button>
+                    <button onclick="react(this)" value="sad">
+                        <i class="fa-regular fa-sad-tear" id="reactS"></i>
+                        <i class="fa-solid fa-sad-tear" id="reactedS"
+                            style="display: none; color: rgb(219, 219, 64);"></i>
+                    </button>
+                    <button onclick="react(this)" value="angry">
+                        <i class="fa-regular fa-angry" id="reactA"></i>
+                        <i class="fa-solid fa-angry" id="reactedA" style="display: none; color: orangered;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card"><a href="bantayan.html">
+                <img src="img/bantayan (1).jpg">
+                <div class="content">
+                    <h3>Bantayan</h3>
+                    <p>GARCIA, JOSHUA JR.</p>
+                </div>
+                <div class="icon"><a href="bantayan.html"><img src="img/enter.png" class="enter"></a></div>
+            </a>
+            <div class="bottom">
+                <div class="react">
+                    <button onclick="react2(this)" value="like">
+                        <i class="fa-regular fa-thumbs-up" id="react2"></i>
+                        <i class="fa-solid fa-thumbs-up" id="reacted2" style="display: none; color: blue"></i>
+                    </button>
+                    <button onclick="react2(this)" value="heart">
+                        <i class="fa-regular fa-heart" id="reactH2"></i>
+                        <i class="fa-solid fa-heart" id="reactedH2" style="display: none; color: red;"></i>
+                    </button>
+                    <button onclick="react2(this)" value="sad">
+                        <i class="fa-regular fa-sad-tear" id="reactS2"></i>
+                        <i class="fa-solid fa-sad-tear" id="reactedS2"
+                            style="display: none; color: rgb(219, 219, 64);"></i>
+                    </button>
+                    <button onclick="react2(this)" value="angry">
+                        <i class="fa-regular fa-angry" id="reactA2"></i>
+                        <i class="fa-solid fa-angry" id="reactedA2" style="display: none; color: orangered;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card"><a href="bakasihan.html">
+                <img src="img/bakasihan (1).jpg">
+                <div class="content">
+                    <h3>Bakasihan</h3>
+                    <p>GARCIA, LEOVEL JEAN</p>
+                </div>
+                <div class="icon"><a href="bakasihan.html"><img src="img/enter.png" class="enter"></a></div>
+            </a>
+            <div class="bottom">
+                <div class="react">
+                    <button onclick="react3(this)" value="like">
+                        <i class="fa-regular fa-thumbs-up" id="react3"></i>
+                        <i class="fa-solid fa-thumbs-up" id="reacted3" style="display: none; color: blue"></i>
+                    </button>
+                    <button onclick="react3(this)" value="heart">
+                        <i class="fa-regular fa-heart" id="reactH3"></i>
+                        <i class="fa-solid fa-heart" id="reactedH3" style="display: none; color: red;"></i>
+                    </button>
+                    <button onclick="react3(this)" value="sad">
+                        <i class="fa-regular fa-sad-tear" id="reactS3"></i>
+                        <i class="fa-solid fa-sad-tear" id="reactedS3"
+                            style="display: none; color: rgb(219, 219, 64);"></i>
+                    </button>
+                    <button onclick="react3(this)" value="angry">
+                        <i class="fa-regular fa-angry" id="reactA3"></i>
+                        <i class="fa-solid fa-angry" id="reactedA3" style="display: none; color: orangered;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card"><a href="cclex.html">
+                <img src="img/cclexsmpl.jpg">
+                <div class="content">
+                    <h3>CCLEX</h3>
+                    <p>DAGUIL, JHON DHEL</p>
+                </div>
+                <div class="icon"><a href="cclex.html"><img src="img/enter.png" class="c"></a></div>
+            </a>
+            <div class="bottom">
+                <div class="react">
+                    <button onclick="react4(this)" value="like">
+                        <i class="fa-regular fa-thumbs-up" id="react4"></i>
+                        <i class="fa-solid fa-thumbs-up" id="reacted4" style="display: none; color: blue"></i>
+                    </button>
+                    <button onclick="react4(this)" value="heart">
+                        <i class="fa-regular fa-heart" id="reactH4"></i>
+                        <i class="fa-solid fa-heart" id="reactedH4" style="display: none; color: red;"></i>
+                    </button>
+                    <button onclick="react4(this)" value="sad">
+                        <i class="fa-regular fa-sad-tear" id="reactS4"></i>
+                        <i class="fa-solid fa-sad-tear" id="reactedS4"
+                            style="display: none; color: rgb(219, 219, 64);"></i>
+                    </button>
+                    <button onclick="react4(this)" value="angry">
+                        <i class="fa-regular fa-angry" id="reactA4"></i>
+                        <i class="fa-solid fa-angry" id="reactedA4" style="display: none; color: orangered;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card"><a href="10,000.html">
+                <img src="img/10k (1).jpg">
+                <div class="content">
+                    <h3>10,000 Roses</h3>
+                    <p>GARCIA, JOHN LEONES</p>
+                </div>
+                <div class="icon"><a href="10,000.html"><img src="img/enter.png" class="enter"></a></div>
+            </a>
+            <div class="bottom">
+                <div class="react">
+                    <button onclick="react5(this)" value="like">
+                        <i class="fa-regular fa-thumbs-up" id="react5"></i>
+                        <i class="fa-solid fa-thumbs-up" id="reacted5" style="display: none; color: blue"></i>
+                    </button>
+                    <button onclick="react5(this)" value="heart">
+                        <i class="fa-regular fa-heart" id="reactH5"></i>
+                        <i class="fa-solid fa-heart" id="reactedH5" style="display: none; color: red;"></i>
+                    </button>
+                    <button onclick="react5(this)" value="sad">
+                        <i class="fa-regular fa-sad-tear" id="reactS5"></i>
+                        <i class="fa-solid fa-sad-tear" id="reactedS5"
+                            style="display: none; color: rgb(219, 219, 64);"></i>
+                    </button>
+                    <button onclick="react5(this)" value="angry">
+                        <i class="fa-regular fa-angry" id="reactA5"></i>
+                        <i class="fa-solid fa-angry" id="reactedA5" style="display: none; color: orangered;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card"><a href="san roque.html">
+                <img src="img/san roque church cordova.jpg">
+                <div class="content">
+                    <h3 style="font-size: 20px;">San Roque Parish Church</h3>
+                    <p>TA Y ONG, KYLE</p>
+                </div>
+                <div class="icon"><a href="san roque.html"><img src="img/enter.png" class="s"></a></div>
+            </a>
+            <div class="bottom">
+                <div class="react">
+                    <button onclick="react6(this)" value="like">
+                        <i class="fa-regular fa-thumbs-up" id="react6"></i>
+                        <i class="fa-solid fa-thumbs-up" id="reacted6" style="display: none; color: blue"></i>
+                    </button>
+                    <button onclick="react6(this)" value="heart">
+                        <i class="fa-regular fa-heart" id="reactH6"></i>
+                        <i class="fa-solid fa-heart" id="reactedH6" style="display: none; color: red;"></i>
+                    </button>
+                    <button onclick="react6(this)" value="sad">
+                        <i class="fa-regular fa-sad-tear" id="reactS6"></i>
+                        <i class="fa-solid fa-sad-tear" id="reactedS6"
+                            style="display: none; color: rgb(219, 219, 64);"></i>
+                    </button>
+                    <button onclick="react6(this)" value="angry">
+                        <i class="fa-regular fa-angry" id="reactA6"></i>
+                        <i class="fa-solid fa-angry" id="reactedA6" style="display: none; color: orangered;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="about">
+        <div class="col">
+            <p class="ftrTxt">Members</p>
+            <p>Joshua D. Garcia Jr.</p>
+            <p>John Leones D. Garcia</p>
+            <p>Leovel Jean D. Garcia</p>
+            <p>Jhon Dhel Daguil</p>
+            <p>Jefford Tagsip</p>
+            <p>Kyle Ta Y Ong</p>
+        </div>
+        <div class="col">
+            <p class="ftrTxt">About us</p>
+            <p>We are TeamMang #allnighters</p>
+        </div>
+        <div class="col">
+            <p class="ftrTxt">About</p>
+            <p>We made this Blog site for our project in <br>'Platform technologies'</p>
+        </div>
+    </div>
+    <script>
+        // NAV BAR functns
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+        // CARDS functns
+    </script>
+    <script src="js.js"></script>
+</body>
+
+</html>
