@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Bakasihan</title>
+</head>
+
+<body class="body">
+    <!-- NAV BAR -->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="img/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            </li>
+
+            <li><a href="html.html">Home</a></li>
+            <li><a href="html.html#about">About</a></li>
+        </ul>
+        <ul class="hidden">
+            <li class="mobileView"><a href="html.html">TeamMang Blog</a></li>
+            <li class="hideOnMobile"><a href="html.html">Home</a></li>
+            <li class="hideOnMobile"><a href="html.html#about">About</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><img src="img/menu_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt=""></a></li>
+        </ul>
+    </nav>
+
+    <!-- ENTRIES -->
+    <div class="row">
+        <div class="column">
+            <img src="img/bakasihan (1).jpg" class="parola">
+        </div>
+        <div class="column"><br>
+            <h2>Entoy’s Bakasihan</h2><br>
+            <p>
+                How about some exotic fresh seafood without hurting your pocket? For as low as ₱30, you can finally try
+                the viral dish in Cordova, at Entoy’s Bakasihan. And yes, this carenderia had been recently featured in
+                one of the recognized series in Netflix.
+            </p>
+        </div>
+        <div class="column"><br>
+            <p>
+                Netflix’s Street Food Asia series featured the historical sea food eatery few months ago, also
+                documenting the story of the owner, Florencio “Entoy” Escabas. Their specialty dish is the Linarang
+                Bakasi (Sour Stew with Reef Eels), which is a perfectly-cooked eel sautéed in soy sauce, green mangoes,
+                fermented black beans, and soured with tamarind and <br><br>
+                Entoy’s Bakasihan is probably the oldest and most famous restaurant serving bakasi in town as the area
+                is abundant with reef eels because the sea’s tidal flats are mostly grassy and muddy which are conducive
+                to the eel’s sustenance.
+            </p>
+        </div>
+        <div class="column">
+            <img src="img/bakasihan.jpg" class="parola">
+        </div>
+        <div class="center">
+            <img src="img/bakasihan(2).jpg" class="parola3" style="width: 50%;">
+        </div>
+    </div>
+
+    <script>
+        // NAV BAR functns
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+        // CARDS functns
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Bantayan</title>
+</head>
+
+<body class="body">
+    <!-- NAV BAR -->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="img/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            </li>
+
+            <li><a href="html.html">Home</a></li>
+            <li><a href="html.html#about">About</a></li>
+        </ul>
+        <ul class="hidden">
+            <li class="mobileView"><a href="html.html">TeamMang Blog</a></li>
+            <li class="hideOnMobile"><a href="html.html">Home</a></li>
+            <li class="hideOnMobile"><a href="html.html#about">About</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><img src="img/menu_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt=""></a></li>
+        </ul>
+    </nav>
+
+    <!-- ENTRIES -->
+    <div class="row">
+        <div class="column">
+            <img src="img/bantayan (1).jpg" class="parola">
+        </div>
+        <div class="column"><br>
+            <h2>Bantayan</h2><br>
+            <p>
+                It is known for its crystal-clear waters, fine white sand beaches, and laid-back atmosphere, making it a
+                perfect destination for travelers looking to escape the hustle and bustle of city life.
+            </p>
+        </div>
+        <div class="column"><br>
+            <p>
+                CEBU, Philippines — Cordova town officials led by Mayor Cesar Suan have conducted a meeting in
+                preparation for the re-opening of Bantayan Bay located in Barangay Catarman on July 16, 2023.
+                <br><br>
+                Aside from Suan, joining the meeting were Catarman barangay captain Alejandro Aro and other barangay
+                officials, department heads of Tourism Office, Engineering, Cordova Traffic Management, Solid Waste
+                Management, Cordova Municipal Police Station as well as representatives of the Philippine Coast Guard.
+                <br><br>
+                According to the town’s official Facebook post, it was agreed during the meeting that no fixed
+                structures/establishments will be allowed in the area, establishment of a public restrooms and putting
+                up of solar lights in the area, and swimming is only allowed from 7 a.m. to 5 p.m.
+            </p>
+        </div>
+        <div class="column">
+            <img src="img/bantayan3.jpg" class="parola">
+        </div>
+        <div class="center">
+            <img src="img/bantayan4.jpg" class="parola3" style="width: 50%;">
+        </div>
+    </div>
+
+    <script>
+        // NAV BAR functns
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+        // CARDS functns
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>San Roque Parish</title>
+</head>
+
+<body class="body">
+    <!-- NAV BAR -->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="img/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            </li>
+
+            <li><a href="html.html">Home</a></li>
+            <li><a href="html.html#about">About</a></li>
+        </ul>
+        <ul class="hidden">
+            <li class="mobileView"><a href="html.html">TeamMang Blog</a></li>
+            <li class="hideOnMobile"><a href="html.html">Home</a></li>
+            <li class="hideOnMobile"><a href="html.html#about">About</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><img src="img/menu_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt=""></a></li>
+        </ul>
+    </nav>
+
+    <!-- ENTRIES -->
+    <div class="row">
+        <div class="column">
+            <img src="img/church.jpg" class="parola">
+        </div>
+        <div class="column"><br>
+            <h2>San Roque Parish</h2><br>
+            <p>
+                San Roque Church is a Roman Catholic church located in the municipality of Cordova, which is in the
+                southeastern tip of Mactan Island in Cebu, Philippines and south of Lapulapu City. It is also called
+                Cordova Church.
+            </p>
+        </div>
+        <div class="column"><br><br><br><br><br>
+            <p>
+                What is known today as Cordova was the result of unifying areas of Gabi, Day-as and Pilipog collectively
+                as a jurisdiction separate from Opon. Its name was derived from Cordoba, a Moorish city in Spain.
+                <br><br>
+                In 1898, however, it was annexed to Opon due to unsuccessful attempt in running the new town
+                independently. A decade after, it called for a secession that was granted by the Philippine Assem
+            </p>
+        </div>
+        <div class="column">
+            <img src="img/church2.webp" class="parola">
+        </div>
+        <div class="center">
+            <img src="img/san roque church cordova.jpg" class="we" style="width: 50%;">
+        </div>
+    </div>
+
+    <script>
+        // NAV BAR functns
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+        // CARDS functns
+    </script>
+</body>
+
+</html>
